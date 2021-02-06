@@ -1,0 +1,81 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background:url(../img/background3.jpg) no-repeat -100px -250px;
+    min-height: 400px;
+    text-align: center;
+    color: #ffffff;
+}
+/* header **/
+header{
+    background:#35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70;
+    border-bottom: #e8491d 3px solid;
+
+}
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header .highlight, header .current a{
+    color: #e8491d;
+    font-weight: bold;
+}
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #e8491d;
+    text-align: center;
+
+}
+header a:hover{
+    color: #31fa74;
+    font-weight: bold;
+}
+body li{
+    display: block;
+}
+#button0{
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #009578;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#button0:hover{
+    background-color: #00b28f;
+
+}
+#button1{
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 90px;
+    padding: 8px;
+    background-color: #f75c1e;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+#button1:hover{
+    background-color: #f8703b;
+}
+
+body a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+}
+
